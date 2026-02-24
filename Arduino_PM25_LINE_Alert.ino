@@ -4,10 +4,10 @@
 #include <PMS.h>
 
 // ====== WiFi + LINE ======
-const char* ssid = "ezoizgz";
-const char* password = "11111111";
-const String token = "Ra7f33KjtYZZy8U24KtQyrJk143Rvd76F6/aQpTOYTXW/ncFdvK9FlMh3bRePHWUBQjegQRGMFyTLBE00B/NIUTV2MvJU9jMmZXeUhpEJf46C5TVo3AYGnbIleZl54qB4yMXJ0OFr3aAvZykQUU5FAdB04t89/1O/w1cDnyilFU=";
-const String userId = "U361130d3982d1a868108a97b92cc98e1";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
+const String token = "YOUR_LINE_CHANNEL_ACCESS_TOKEN";
+const String userId = "YOUR_LINE_USER_ID";
 
 // ====== Plantower PMS ======
 HardwareSerial pmsSerial(2); // RX2=16, TX2=17
@@ -131,3 +131,4 @@ void loop() {
     }
   }
 }
+
